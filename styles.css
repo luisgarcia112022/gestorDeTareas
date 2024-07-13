@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #000; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #007bff; /* Azul */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #800080; /* Morado */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #6a007a; /* Morado oscuro al pasar el ratón */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
